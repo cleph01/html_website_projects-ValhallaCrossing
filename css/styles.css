@@ -44,14 +44,23 @@ section {
 
 .btn {
     display: inline-block;
-    padding: 1.4rem 2.6rem;
+
+    padding: 1.5rem 1.6rem;
     background-color: var(--main-color);
     color: var(--bg-color);
-    font-size: var(--p-font);
     font-weight: 600;
-    border-radius: 5rem;
+    border-radius: 50%;
     transition: all 0.45s ease;
 }
+
+.btn i {
+    font-size: var(--big-font);
+}
+
+.reserve {
+    font-size: var(--p-font);
+}
+
 /* header  */
 
 header {
