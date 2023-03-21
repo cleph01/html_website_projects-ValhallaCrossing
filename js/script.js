@@ -31,8 +31,8 @@ const sr = ScrollReveal({
 });
 
 // orginal delay was 200
-sr.reveal(".home-text", { delay: 100, origin: "left" });
-sr.reveal(".home-img", { delay: 100, origin: "right" });
+sr.reveal(".home-text", { delay: 200, origin: "left" });
+sr.reveal(".home-img", { delay: 200, origin: "right" });
 sr.reveal(".container, .about, .menu, .contact", {
     delay: 100,
     origin: "bottom",
